@@ -11,13 +11,13 @@ export const DATA = {
   description:
     "I'm a 17-year-old entrepreneur & software engineer who likes to build customer-oriented software in demand :)",
   summary:
-    "I have 2,5 years of experience working as a software engineer & 1,5 years of experience running tech startups. My first reasonable startup was [Jumify](https://www.linkedin.com/company/98498106/admin/dashboard/), and now I run [Pleep](https://pleep.app), helping businesses to reach more figures with AI assistants. I'm also a [LaunchX](https://www.launchx.com/) alumni and have completed more than 5 international accelerators with my startups, one of which is [Domino Ventures Accelerator](https://dominovc.com/news-detail/startupsgraduated) which I completed with Pleep.",
+    "I have 2,5 years of experience working as a software engineer & 1,5 years of experience running tech startups. My first reasonable startup was [Jumify](https://www.linkedin.com/company/98498106/admin/dashboard/), and now I run [Pleep](https://pleep.app), helping businesses to reach more figures with AI assistants. I have completed more than 5 international accelerators with my startups, one of which is [Domino Ventures Accelerator](https://dominovc.com/news-detail/startupsgraduated) which I completed with Pleep.",
   avatarUrl: "/me.JPG",
   skills: ["React", "Next.js", "Typescript", "Node.js", "Python", "Docker"],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    { href: "#projects", icon: CodeIcon, label: "Projects" },
+    // { href: "#projects", icon: CodeIcon, label: "Projects" },
     // { href: "#", icon: PencilLine, label: "Notes" },
   ],
   contact: {
@@ -91,6 +91,19 @@ export const DATA = {
       end: "Feb 2023",
       description:
         "Jumify connected experience-free specialists with early-stage startups allowing them to benefit from each other. I built this service solely because of my pain in finding my first working experience. Unfortunately, I lacked the business experience and was too much focused on the product (I was this 'tech' founder), so the service didn't get enough traction and we had to shut it down.",
+    },
+    {
+      company: "Freelance",
+      href: "https://fl.ru",
+      badges: [],
+      location: "Remote",
+      title: "Web Developer",
+      logoUrl:
+        "https://cdn6.aptoide.com/imgs/c/c/e/cce0e7459ea7616b88ef83accb646f4c_icon.png",
+      start: "Feb 2022",
+      end: "Mar 2023",
+      description:
+        "I started off in Web Development by taking different projects as a freelancer. Here I firstly applied my knowledge to practice.",
     },
   ],
   education: [
@@ -240,6 +253,7 @@ export const DATA = {
       title: "Startup Garage Accelerator",
       dates: "Mar 2024 - Jul 2024",
       location: "Astana, Kazakhstan",
+      className: "",
       description:
         "We completed the Startup Garage Accelerator with Pleep and participated in the Demo Day, in which only 15 startups out of 315 were selected to participate in.",
       image:
@@ -260,6 +274,7 @@ export const DATA = {
     {
       title: "DOMiNO Ventures Accelerator - I Batch",
       dates: "Mar 2024 - Jul 2024",
+      className: "",
       location: "Istanbul, Turkey",
       description:
         "We were selected as 1 of 10 startups to participate in the first batch of DOMiNO Ventures Accelerator out of 1000+ applications. We successfully completed the program and started raising pre-seed round right after this.",
@@ -281,6 +296,7 @@ export const DATA = {
     {
       title: "NURIS Quick Start Accelerator - XV Batch",
       dates: "Apr 2024 - Jun 2024",
+      className: "",
       location: "Astana, Kazakhstan",
       description:
         "Pleep was selected as 1 of 12 projects among the big pool of candidates to participate in the NURIS Quick Start Accelerator. After completion, we also received $5K in pre-seed funding from the Nazarbayev University Research and Innovation System to boost Pleep.",
@@ -296,6 +312,57 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
           title: "Digital Business About Pleep",
           href: "https://digitalbusiness.kz/2024-06-13/pomozhem-biznesu-otvechat-klientam-vsego-za-9-sekund-kakie-startapi-stali-pobeditelyami-na-nuris-demo-day-2024/",
+        },
+      ],
+    },
+    {
+      title: "Terricon Valley Incubator for Startups",
+      dates: "Jul 2023 - Oct 2023",
+      location: "Almaty, Kazakhstan",
+      description:
+        "We completed this incubation program with our startup - Jumify. By the end, we graduated with a working MVP and a small user base.",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRspwo7AqRqIE8Uk5VZ4SDlXJom_Idur2JLSA&s",
+      className: "bg-black",
+      links: [
+        {
+          icon: <Icons.globe className="size-3" />,
+          title: "Terricon Valley",
+          href: "https://terricon.kz/ru",
+        },
+      ],
+    },
+    {
+      title: "Full Javascript Stack Development Course",
+      dates: "Sep 2022 - Oct 2022",
+      location: "Almaty, Kazakhstan",
+      className: "",
+      description:
+        "I've been selected as 1 of 10 students to participate in the Full Stack Development Course held by American Space Almaty for free. I've learned the basics of React.js here and learned how to build Back-End.",
+      image:
+        "https://d2v9ipibika81v.cloudfront.net/uploads/sites/23/2016/04/americanspaces750-750x350.png",
+      links: [
+        {
+          icon: <Icons.globe className="size-3" />,
+          title: "American Space & Makerspace Almaty",
+          href: "https://www.instagram.com/asalmaty",
+        },
+      ],
+    },
+    {
+      title: "Android Development Course",
+      dates: "Aug 2022 - Sep 2022",
+      location: "Almaty, Kazakhstan",
+      className: "",
+      description:
+        "I've been selected as 1 of 12 students to participate in the Android Development Course held by American Space Almaty for free. I've learned Java and basics of Android development there.",
+      image:
+        "https://d2v9ipibika81v.cloudfront.net/uploads/sites/23/2016/04/americanspaces750-750x350.png",
+      links: [
+        {
+          icon: <Icons.globe className="size-3" />,
+          title: "American Space & Makerspace Almaty",
+          href: "https://www.instagram.com/asalmaty",
         },
       ],
     },

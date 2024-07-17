@@ -165,8 +165,8 @@ export default function Page() {
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;ve acquired knowledge and participated in a variety of
-                  events, accelerators, and different kinds of experiences. Here are the most
-                  meaningful ones.
+                  events, accelerators, and different kinds of experiences. Here
+                  are the most meaningful ones.
                 </p>
               </div>
             </div>
@@ -185,6 +185,7 @@ export default function Page() {
                     dates={project.dates}
                     image={project.image}
                     links={project.links}
+                    bg={project.className}
                   />
                 </BlurFade>
               ))}

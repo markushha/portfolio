@@ -1,5 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 interface Props {
@@ -13,6 +14,7 @@ interface Props {
     title: string;
     href: string;
   }[];
+  bg?: string;
 }
 
 export function HackathonCard({
@@ -22,11 +24,12 @@ export function HackathonCard({
   location,
   image,
   links,
+  bg,
 }: Props) {
   return (
     <li className="relative ml-10 py-4">
       <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
-        <Avatar className="border size-12 p-1 m-auto">
+        <Avatar className={cn("border size-12 p-1 m-auto", bg)}>
           <AvatarImage src={image} alt={title} className="object-contain" />
           <AvatarFallback>{title[0]}</AvatarFallback>
         </Avatar>
