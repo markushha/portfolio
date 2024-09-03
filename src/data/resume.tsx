@@ -76,7 +76,7 @@ export const DATA = {
       logoUrl:
         "https://yt3.googleusercontent.com/ytc/AIdro_nv_GCRVnmpMt5Cnipl_g96U20d3HwE1xkZsN9HpbQHr7o=s900-c-k-c0x00ffffff-no-rj",
       start: "Apr 2023",
-      end: "Present",
+      end: "Aug 2024",
       description:
         "Starfund is an online streaming service for MMA fights. I built the front-end part of our service and worked on implementing new features.",
     },
