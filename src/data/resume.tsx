@@ -12,7 +12,7 @@ export const DATA = {
     "I'm a 17-year-old entrepreneur & software engineer who likes to build customer-oriented software in demand :)",
   summary:
     "I have 2,5 years of experience working as a software engineer & 1,5 years of experience running tech startups. My first reasonable startup was [Jumify](https://www.linkedin.com/company/98498106/admin/dashboard/), and now I run [Pleep](https://pleep.app), helping businesses to reach more figures with AI assistants. I have completed more than 5 international accelerators with my startups, one of which is [Domino Ventures Accelerator](https://dominovc.com/news-detail/startupsgraduated) which I completed with Pleep.",
-  avatarUrl: "/me.JPG",
+  avatarUrl: "/me.jpg",
   skills: ["React", "Next.js", "Typescript", "Node.js", "Python", "Docker"],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
