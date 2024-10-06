@@ -1,6 +1,5 @@
 import { Icons } from "@/components/icons";
-import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
-import { title } from "process";
+import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Mark Inger",
@@ -9,7 +8,7 @@ export const DATA = {
   location: "Almaty, Kazakhstan",
   locationLink: "https://www.google.com/maps/place/Almaty",
   description:
-    "I'm a 17-year-old entrepreneur & software engineer who likes to build customer-oriented software in demand :)",
+    "I'm a 17-year-old entrepreneur & software engineer who likes to build customer-oriented software",
   summary:
     "I have 2,5 years of experience working as a software engineer & 1,5 years of experience running tech startups. My first reasonable startup was [Jumify](https://www.linkedin.com/company/98498106/admin/dashboard/), and now I run [Pleep](https://pleep.app), helping businesses to reach more figures with AI assistants. I have completed more than 5 international accelerators with my startups, one of which is [Domino Ventures Accelerator](https://dominovc.com/news-detail/startupsgraduated) which I completed with Pleep.",
   avatarUrl: "/me.jpg",
@@ -65,7 +64,7 @@ export const DATA = {
       start: "Jan 2024",
       end: "Present",
       description:
-        "Pleep is a service for creating tailored AI assistants for small & medium-sized businesses. We allow any business owner to create, set up, & integrate their own AI assistant in their business in just under 30 minutes. We recently received $5K from Nazarbayev University to take our service to the next level.",
+        "Pleep is a service for creating tailored AI assistants for small & medium-sized businesses. We allow any business owner to create, set up, & integrate their own AI assistant in their business in just under 30 minutes. We raised $5K from Nazarbayev University, recently got $20K from Yandex Cloud and currently raising $100K in a pre-seed round.",
     },
     {
       company: "Starfund",
@@ -82,7 +81,7 @@ export const DATA = {
     },
     {
       company: "Jumify",
-      href: "https://jumify.kz",
+      href: "https://www.linkedin.com/company/jumify/",
       badges: [],
       location: "Remote",
       title: "CEO & Co-Founder",
