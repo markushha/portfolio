@@ -8,9 +8,9 @@ export const DATA = {
   location: "Almaty, Kazakhstan",
   locationLink: "https://www.google.com/maps/place/Almaty",
   description:
-    "I'm a 17-year-old entrepreneur & software engineer who likes to build customer-oriented software",
+    "A 17-year-old guy who likes to code and build customer-oriented software and then sell it.",
   summary:
-    "I have 2,5 years of experience working as a software engineer & 1,5 years of experience running tech startups. My first reasonable startup was [Jumify](https://www.linkedin.com/company/98498106/admin/dashboard/), and now I run [Pleep](https://pleep.app), helping businesses to reach more figures with AI assistants. I have completed more than 5 international accelerators with my startups, one of which is [Domino Ventures Accelerator](https://dominovc.com/news-detail/startupsgraduated) which I completed with Pleep.",
+    "I started by landing an internship at a US-based startup. Having worked there for 2 years, I've grown as an engineer. In 2023, I started my first reasonable startup [Jumify](https://www.linkedin.com/company/jumify/). A year later I started [Pleep](https://pleep.app), a service for creating AI-assistants for SMBs that focuses not on tech guys, but on real entrepreneurs, allowing them to make state-of-the-art AI-assistants in just 5 minutes. We recently raised $100K in a pre-seed round.",
   avatarUrl: "/me.JPG",
   skills: ["React", "Next.js", "Typescript", "Node.js", "Python", "Docker"],
   navbar: [
@@ -23,31 +23,28 @@ export const DATA = {
     email: "mark@pleep.app",
     tel: "+7 777 155 54 16",
     social: {
+      Telegram: {
+        name: "Telegram",
+        url: "https://t.me/markingers",
+        icon: Icons.telegram,
+        navbar: true,
+      },
       GitHub: {
         name: "GitHub",
         url: "https://github.com/markushha",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/mark-inger/",
         icon: Icons.linkedin,
-
-        navbar: true,
-      },
-      Youtube: {
-        name: "YouTube",
-        url: "https://www.youtube.com/@marktriedcoding",
-        icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
         url: "mailto:mark@pleep.app",
         icon: Icons.email,
-
         navbar: false,
       },
     },
@@ -64,20 +61,20 @@ export const DATA = {
       start: "Jan 2024",
       end: "Present",
       description:
-        "Pleep is a service for creating tailored AI assistants for small & medium-sized businesses. We allow any business owner to create, set up, & integrate their own AI assistant in their business in just under 30 minutes. We raised $5K from Nazarbayev University, recently got $20K from Yandex Cloud and currently raising $100K in a pre-seed round.",
+        "Pleep is a service for creating state-of-art AI assistants for small & medium-sized businesses. We allow any business owner to create, set up, & integrate their own AI assistant in their business in 5 minutes. It's literally the easiest product –– try it. We just raised $100K in a pre-seed round.",
     },
     {
       company: "Starfund",
       href: "https://starfund.stream",
       badges: [],
       location: "Remote",
-      title: "Software Engineer",
+      title: "Full-Stack Software Engineer",
       logoUrl:
         "https://yt3.googleusercontent.com/ytc/AIdro_nv_GCRVnmpMt5Cnipl_g96U20d3HwE1xkZsN9HpbQHr7o=s900-c-k-c0x00ffffff-no-rj",
       start: "Apr 2023",
       end: "Aug 2024",
       description:
-        "Starfund is an online streaming service for MMA fights. I built the front-end part of our service and worked on implementing new features.",
+        "Starfund is an online streaming service for MMA fights. I built the front-end part of our service and worked on implementing new features. I also worked on the back-end part of the service.",
     },
     {
       company: "Jumify",
