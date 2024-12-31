@@ -8,7 +8,7 @@ export const DATA = {
   location: "Almaty, Kazakhstan",
   locationLink: "https://www.google.com/maps/place/Almaty",
   description:
-    "A 17-year-old guy who likes to code and build customer-oriented software and then sell it.",
+    "A 17-year-old guy who likes to build customer-oriented software and sell it.",
   summary:
     "I started by landing an internship at a US-based startup. Having worked there for 2 years, I've grown as an engineer. In 2023, I started my first reasonable startup [Jumify](https://www.linkedin.com/company/jumify/). A year later I started [Pleep](https://pleep.app), a service for creating AI-assistants for SMBs that focuses not on tech guys, but on real entrepreneurs, allowing them to make state-of-the-art AI-assistants in just 5 minutes. We recently raised $100K in a pre-seed round.",
   avatarUrl: "/me.JPG",
